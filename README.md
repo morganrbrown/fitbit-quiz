@@ -174,9 +174,9 @@
         <div id="quiz-questions" class="hidden">
             <p id="question-text" class="question-text"></p>
             <div id="options-container" class="grid grid-cols-1 gap-4"></div>
-            <div class="flex justify-between mt-6">
-                <button id="back-btn" class="option-button w-auto px-6 py-2" disabled>Back</button>
-                <button id="next-btn" class="action-button w-auto px-6 py-2" disabled>Next</button>
+            <div class="flex flex-col sm:flex-row sm:justify-center gap-4 mt-6">
+                <button id="back-btn" class="option-button px-6 py-2" disabled>Back</button>
+                <button id="next-btn" class="action-button px-6 py-2" disabled>Next</button>
             </div>
         </div>
 
@@ -507,4 +507,3 @@
     </script>
 </body>
 </html>
-```
