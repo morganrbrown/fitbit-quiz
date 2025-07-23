@@ -1,5 +1,3 @@
-# fitbit-quiz
-Find your perfect Fitbit
 <!DOCTYPE html>
 <html lang="en">
 <head>
